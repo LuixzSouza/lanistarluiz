@@ -1,4 +1,4 @@
-import { ContainerGrid } from "./container";
+import { ContainerGrid } from "@/components/container";
 
 export function SectionHeader() {
     return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ContainerGrid } from "./container";
+import { ContainerGrid } from "@/components/container";
 
 const navigation = [
     {
