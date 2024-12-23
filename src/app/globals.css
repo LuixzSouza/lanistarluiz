@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo da barra de rolagem inteira */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+    background-color: #f1f1f1; /* Cor do fundo da barra de rolagem */
+  }
+  
+  /* Estilo do thumb (parte que você arrasta) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #07BCFF; /* Cor do thumb */
+    border-radius: 10px; /* Bordas arredondadas do thumb */
+    border: 3px solid #f1f1f1; /* Adiciona um espaço entre o thumb e o track */
+  }
+  
+  /* Estilo do track (fundo da barra de rolagem) */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor do fundo da barra de rolagem */
+    border-radius: 10px; /* Bordas arredondadas do track */
+  }
+  
+  /* Estilo do thumb quando estiver ativo */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #07BCFF; /* Cor do thumb ao passar o mouse */
+    cursor: pointer;
+  }
