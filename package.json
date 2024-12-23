@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.5",
+    "next": "^14.2.21",
     "react": "^18",
     "react-dom": "^18",
     "swiper": "^11.1.9",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.25.3",
     "@babel/preset-react": "^7.24.7",
-    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.10.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",

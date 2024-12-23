@@ -80,7 +80,9 @@ export function Footer() {
                 </li>
             </ul>
             <div className="flex flex-col gap-14 pt-16">
-                <p className="text-[#475567] text-sm font-normal" >Lanistar Ltd is a registered EMD agent (FRN: 902996) of Modulr FS Limited and may distribute and redeem e-money and provide payment services. Modulr FS Limited is authorised by the Financial Conduct Authority ("FCA") under the Electronic Money Regulations 2011 (FRN: 900573) for the issuing of electronic money and to provide payment services. Lanistar Limited ("Lanistar") is currently only carrying out pre-launch marketing in preparation for a future launch of Lanistar branded payment cards ("Cards"). Lanistar is finalising arrangements with various partner firms who are authorised and/or regulated (by the FCA and other overseas regulators) and the Cards will only be launched and go-live when those arrangements are in place.</p>
+                <p>
+                Lanistar Ltd is authorised by the Financial Conduct Authority (&quot;FCA&quot;) under the Electronic Money Regulations 2011.
+                </p>
                 <div className="flex justify-between"> 
                     <p className="text-[#475567] text-sm tracking-tighter font-medium">© 2021 Lanistar.com</p>
                     <div className="flex gap-5">

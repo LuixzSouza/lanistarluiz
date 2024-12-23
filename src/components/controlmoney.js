@@ -68,7 +68,7 @@ export function SectionControlMoney() {
                         />
                     </li>
                     <li>
-                        <h4 className="text-white text-lg font-medium pb-4">STACK, SWAP, DON'T STOP</h4>
+                        <h4 className="text-white text-lg font-medium pb-4">STACK, SWAP, DON T STOP</h4>
                         <p className="text-[#A6AEB8] text-base font-normal">One payment card per account? Yeah no. Our payment cards are polymorphic, meaning you can stack multiple cards in one, and swap between.</p>
                     </li>
                 </ul>
