@@ -22,14 +22,14 @@ export function Heading() {
             <div>
                 <Image src={"./Logo.svg"} alt="Logo Lanistar" width={176} height={48} />
             </div>
-            <div className="flex items-center justify-between w-96 ">
-            {navigation.map((item, index) => (
-                <div  key={index}>
-                    <a href={item.direc}>{item.Link}</a>
-                </div>
-            ))}
+            <div className="hidden items-center justify-between w-96 @desktop:flex">
+                {navigation.map((item, index) => (
+                    <div  key={index}>
+                        <a href={item.direc}>{item.Link}</a>
+                    </div>
+                ))}
             </div>
-            <div className="relative flex justify-between w-80">
+            <div className="relative flex justify-between w-full gap-4 max-w-max @desktop:max-w-80">
                 <div className="flex items-center gap-3 group cursor-pointer">
                     <Image src={"./IconESA.svg"} alt="Logo Lanistar" width={24} height={24} />
                     <Image className="group-hover:rotate-180 transition-all" src={"./ArrowDonw.svg"} alt="Logo Lanistar" width={12} height={6} />

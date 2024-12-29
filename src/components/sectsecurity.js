@@ -22,13 +22,13 @@ const InfoSecurity = [
 
 export function SectionSecurity() {
     return(
-        <ContainerGrid className={"py-28 flex justify-between"}>
-            <div className="flex flex-col items-start justify-start w-full max-w-xl">
-                <h2 className="text-4xl font-medium text-black/40 mb-6">A SECURITY DETAIL FOR YOUR <span className="text-black">BANK DETAILS</span></h2>
+        <ContainerGrid className={"py-28 flex flex-col justify-between @desktop:flex-row"}>
+            <div className="flex flex-col items-center justify-center text-center @desktop:text-left @desktop:items-start @desktop:justify-start w-full @desktop:max-w-xl">
+                <h2 className="text-3xl font-medium text-black/40 mb-6 @desktop:text-4xl">A SECURITY DETAIL FOR YOUR <span className="text-black">BANK DETAILS</span></h2>
                 <p className="text-lg font-medium text-gray-700/80 mb-10">The most secure payment card in the world. Load up to 8 payment cards and get one-time PINs straight from the keypad</p>
                 <ul>
                     {InfoSecurity.map((item, index) => (
-                        <li key={index} className="flex items-center gap-4 mb-8">
+                        <li key={index} className="flex items-start gap-4 mb-8 text-left">
                             <Image
                                 src={item.image}
                                 alt="Icons"

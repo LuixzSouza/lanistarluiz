@@ -5,7 +5,7 @@ export function SectionMindFul() {
     return (
         <div>
             <ContainerGrid>
-                <ul className="flex justify-between py-20 border-b border-black/10">
+                <ul className="flex flex-col items-center justify-between py-20 border-b gap-8 border-black/10 @desktop:flex-row">
                     <li className="flex items-center">
                         <Image
                             src={'/Icon-World.svg'}

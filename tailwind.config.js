@@ -12,6 +12,10 @@ module.exports = {
         "bg-rectangle": "url('/Bg-Rectangle.png')",
         "bg-better": "url('/Bg-Better.png')",
       },
+      screens: {
+        '@desktop': '1024px',
+        '@tablet': '640px',
+      },
     },
   },
   plugins: [],
