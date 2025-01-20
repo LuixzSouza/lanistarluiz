@@ -91,7 +91,7 @@ export function Footer() {
       {/* Footer Bottom */}
       <div className="flex flex-col gap-14 pt-16">
         <p>
-          Lanistar Ltd is authorised by the Financial Conduct Authority ("FCA") under the Electronic Money Regulations 2011.
+          Lanistar Ltd is authorised by the Financial Conduct Authority (&quot;FCA&quot;) under the Electronic Money Regulations 2011.
         </p>
         <div className="flex justify-between">
           <p className="text-[#475567] text-sm tracking-tighter font-medium">© 2021 Lanistar.com</p>
